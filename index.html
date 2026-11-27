@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIS 455 - MealDB Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>MealDB Recipe Explorer</h1>
+        <p>Search any meal to view the top 5 recipes from TheMealDB API</p>
+        
+        <div class="search-box-wrapper">
+            <input type="text" id="searchBox" placeholder="Type a meal name (e.g., Chicken, Pasta, Cake)...">
+            <button onclick="connect()">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="displayArea" class="meal-container"></div>
+    </main>
+
+    <footer>
+        <p>MIS 455 Class Participation | Sadman Sakib Khan (ID: 2221331)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
